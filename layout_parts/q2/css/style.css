@@ -3,3 +3,26 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.box_wrap{
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ECF1F2;
+  font-size: 100%;
+}
+.q2_photo{
+  margin-bottom: 10px;
+}
+.left{
+  margin-right: 20px;
+  float: left;
+}
+.right{
+  float: right;
+  margin-left: 20px;
+}
+.q2_text{
+  font-size: 18px;
+  line-height: 22px;
+  word-break: break-all;
+}
