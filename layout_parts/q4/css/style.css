@@ -3,3 +3,45 @@
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
+.warap{
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ECF1F2;
+}
+.q4_boxes{
+  display: table;
+  width: 100%;
+  margin-top: 20px;
+}
+.q4_boxes:first-child{
+  margin-top: 0;
+}
+.q4_boxes_cell{
+  display: table-cell;
+  padding: 20px 0;
+  text-align: center;
+}
+.skin{
+  background-color: #fdc8b8;
+  width: 100px;
+  
+}
+.pink{
+  background-color: #e0abd9;
+  
+}
+.blue{
+  background-color: #b6d8ed;
+  width: 100px;
+}
+.yellow{
+  background-color: #e5d32e;
+
+}
+.red{
+  background-color: #ec8f9a;
+}
+.green{
+  background-color: #8fdcad;
+  width: 500px;
+}
