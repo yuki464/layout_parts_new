@@ -1,5 +1,77 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.is-float{
+  float: left;
+  width: 225px;
+  margin-left: 50px;
+  box-sizing: border-box;
+}
+.is-float:first-child{
+  margin-left: 0px;
+}
 
+.is-table{
+  display: table;
+}
+.is-cel{
+  display: table-cell;
+  width: 225px;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+.is-cel:first-child{
+  padding-left: 0;
+}
+.inline{
+  letter-spacing: -1em;
+  width: 600px;
+}
+.inline_box{
+  width: 225px;
+  letter-spacing: 0em;
+  /* font-size: 16px; */
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  margin-left: 50px;
+}
+.inline_box:first-child{
+  margin-left: 0;
+}
 /* 回答はここに書いてね */
+.is-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.is-flexbox{
+  /* margin-left: 50px; */
+  width: 225px;
+  box-sizing: border-box;
+}
+.is-flexbox:first-child{
+  /* margin-left: 0; */
+}
+.is-bigbox{
+  letter-spacing: -1em;
+}
+.is-s_box{
+  letter-spacing: 0em;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.s_left{
+  width: 300px;
+  vertical-align: top;
+}
+.s_right{
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+}
