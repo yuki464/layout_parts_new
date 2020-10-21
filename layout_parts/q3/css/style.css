@@ -21,7 +21,7 @@
   line-height: 22px;
   text-align: center;
 }
-.q3_table th,td{
+.q3_table th,.q3_table td{
   padding: 10px;
   border: 1px solid #dedede;
   vertical-align: middle;
