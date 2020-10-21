@@ -29,17 +29,16 @@
   padding-left: 0;
 }
 .inline{
-  letter-spacing: -1em;
-  width: 600px;
+  font-size: 0;
+  /* width: 600px; */
 }
 .inline_box{
   width: 225px;
-  letter-spacing: 0em;
-  /* font-size: 16px; */
+  font-size: 16px;
   display: inline-block;
   box-sizing: border-box;
   vertical-align: middle;
-  margin-left: 50px;
+  margin-left: 45px;
 }
 .inline_box:first-child{
   margin-left: 0;
