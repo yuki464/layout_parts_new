@@ -21,6 +21,9 @@
   width: 230px;
   background-color: #3274ae;
 }
+.q1_contents:first-child{
+  margin-left: 0;
+}
 .q1_contents_box{
   padding: 20px;
   border: 10px solid #022336;
